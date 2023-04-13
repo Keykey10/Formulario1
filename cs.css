@@ -21,27 +21,6 @@ body{
     
 }
 
-header{ 
-    background-color: rgb(33, 33, 33);
-    padding: 20px 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-header nav{
-display: flex;
-align-items: center;
-gap: 3vw
-}
-
-header nav a{
-text-decoration: none;}
-
-header nav a:hover{
-    color: #50639c;
-    transition: 1s ease-in-out;}
-
 main{
     min-height: 90vh;
     padding: 3vh 5vw;
@@ -56,71 +35,72 @@ text-align: center;
 color: white;
 font-size: 50px;}
 
-    form{width: 70%;
-        display: grid;
-        gap: 5vh;
-        grid-template-columns: 1fr 1fr;
-        }
+form{
+width: 70%;
+display: grid;
+gap: 5vh;
+grid-template-columns: 1fr 1fr;
+}
 
-    form .block{grid-column: 1 / 3;
-            gap: 3vh;
-            }
+form .block{
+grid-column: 1 / 3;
+gap: 3vh;
+}
 
-    form .inputContainer{
-    gap: 3vh;
-    }
+form .inputContainer{
+gap: 3vh;
+}
 
-    form .inputContainer input, select, option, textarea{
-        color: #000000;
-        padding: 10px;
-        background-color: #F5EDED;
-        border: none;   
-        border-bottom: 1px rgb(33, 33, 33) solid;
-        font-size: 15px;
-        font-weight: bold;
-        width: 100%;
+form .inputContainer input, select, option, textarea{
+color: #000000;
+padding: 10px;
+background-color: #F5EDED;
+border: none;   
+border-bottom: 1px rgb(33, 33, 33) solid;
+font-size: 15px;
+font-weight: bold;
+width: 100%;
+}
 
-    }
-
-    .btnEnviar{width: 400px;
-    padding: 10px;
-    background-color: #3E3636;
-    color: white;
-    border: 1px solid #3E3636;
-    font-size: 18px;
-    font-weight: bold;
+.btnEnviar{width: 400px;
+padding: 10px;
+background-color: #3E3636;
+color: white;
+border: 1px solid #3E3636;
+font-size: 18px;
+font-weight: bold;
 }
  
-.btnEnviar:hover{background-color: #beb7ff;
-                color: #000000;
-            transition: 1s ease-in-out;}
+.btnEnviar:hover{
+background-color: #beb7ff;
+color: #000000;
+transition: 1s ease-in-out;}
 
 
 .contenedorusuarios{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 5vw;
+display: flex;
+justify-content: center;
+width: 100%;
+flex-wrap: wrap;
+gap: 5vw;
 }
 
 .carduser{
-    width: 300px;
-    background-color: rgb(34, 34, 34);
-    color: #F5EDED;
-    padding: 10px;
-    border-radius: 5px;
-
+width: 300px;
+background-color: rgb(34, 34, 34);
+color: #F5EDED;
+padding: 10px;
+border-radius: 5px;
 }
 
 
 .boton-rojo {
-    background-color: #3e3a63 !important;
-    color: white !important;
-  }
+background-color: #3e3a63 !important;
+color: white !important;
+}
 
 .texto{
-    font-weight: bold;}
+font-weight: bold;}
 
 @media  screen and (max-width: 800px) {
 form{
